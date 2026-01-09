@@ -2,7 +2,7 @@
 
 **Author**: Mehul Mittal  
 AI/ML Engineer | Data Engineer  
-📧 mehul.mittal@example.com
+📧 mehulmittal1299@gmail.com
 
 [![Azure](https://img.shields.io/badge/Azure-Data%20Engineering-0078D4?logo=microsoft-azure)](https://azure.microsoft.com)
 [![Databricks](https://img.shields.io/badge/Databricks-FF3621?logo=databricks&logoColor=white)](https://databricks.com)
@@ -11,11 +11,11 @@ AI/ML Engineer | Data Engineer
 
 ---
 
-## 📊 Project Overview
+## Project Overview
 
 An enterprise-grade **End-to-End Azure Data Engineering Solution** implementing modern data lakehouse architecture with medallion pattern (Bronze-Silver-Gold). This project demonstrates production-ready ETL/ELT pipelines, cloud data migration, and advanced analytics using Microsoft Azure services.
 
-### 🎯 Business Problem
+### Business Problem
 
 Organizations with on-premise databases need scalable, cloud-based analytics solutions. This project solves:
 - **Data Migration**: Moving SQL Server databases to Azure cloud
@@ -23,18 +23,16 @@ Organizations with on-premise databases need scalable, cloud-based analytics sol
 - **Real-time Analytics**: Enabling business intelligence through Power BI dashboards
 - **Automation**: Scheduled pipelines for continuous data processing
 
-### 🏆 Key Achievements
+### Key Achievements
 
 - ✅ **100% Automated ETL**: Zero-touch data pipeline from source to visualization
 - ✅ **Scalable Architecture**: Handles millions of records with Azure Databricks
 - ✅ **Modern UI/UX**: Professional Power BI dashboard with interactive visualizations
 - ✅ **Production Ready**: Implements best practices for security, monitoring, and governance
 
-![Architecture Diagram](./pix/Arc%20img%202.png)
-
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ### Data Flow Pipeline
 
@@ -60,7 +58,7 @@ Power BI Dashboard → Interactive Visualizations
 
 ---
 
-## 💻 Technologies Used
+## Technologies Used
 
 ### Cloud Services
 | Service | Purpose |
@@ -75,7 +73,7 @@ Power BI Dashboard → Interactive Visualizations
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Azure-Sales-Analytics/
@@ -95,7 +93,7 @@ Azure-Sales-Analytics/
 
 ---
 
-## 🚀 Implementation Guide
+## Implementation Guide
 
 ### Part 1: Data Ingestion (Bronze Layer)
 
@@ -224,11 +222,11 @@ END;
 The dashboard has been redesigned with modern UI/UX principles:
 
 **Design Features:**
-- 🎨 **Clean Layout**: Organized visual hierarchy with hero metrics
-- 🌈 **Azure Color Palette**: Professional blue/white theme
-- 📊 **Interactive Charts**: Cross-filtering and drill-through
-- 📱 **Responsive Design**: Optimized for desktop and mobile
-- ⚡ **Performance**: DirectQuery with optimized DAX measures
+- **Clean Layout**: Organized visual hierarchy with hero metrics
+- **Azure Color Palette**: Professional blue/white theme
+- **Interactive Charts**: Cross-filtering and drill-through
+- **Responsive Design**: Optimized for desktop and mobile
+- **Performance**: DirectQuery with optimized DAX measures
 
 **Screenshot: Enhanced Dashboard - Overview**
 ![Dashboard Overview](./PowerBI%20files/PowerBI%20Reporting%20output.png)
@@ -296,7 +294,7 @@ Customer_LTV = SUMX(VALUES(dim_customer[CustomerID]), CALCULATE(SUM(fact_sales[S
 
 ---
 
-## 🔒 Security & Governance
+## Security & Governance
 
 ### Access Control
 - **Microsoft Entra ID**: Role-based access control (RBAC)
@@ -312,7 +310,7 @@ Customer_LTV = SUMX(VALUES(dim_customer[CustomerID]), CALCULATE(SUM(fact_sales[S
 
 ---
 
-## 📊 Performance Optimization
+## Performance Optimization
 
 ### Databricks Optimization
 ```python
@@ -339,7 +337,7 @@ FROM fact_sales GROUP BY YEAR(order_date), MONTH(order_date);
 
 ---
 
-## 💰 Cost Optimization
+## Cost Optimization
 
 **Estimated Monthly Cost:** $40-105
 
@@ -358,7 +356,7 @@ FROM fact_sales GROUP BY YEAR(order_date), MONTH(order_date);
 
 ---
 
-## 📈 Learning Outcomes
+## Learning Outcomes
 
 Through this project, I gained expertise in:
 
@@ -384,7 +382,7 @@ Through this project, I gained expertise in:
 
 ---
 
-## 🚨 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -405,7 +403,7 @@ Through this project, I gained expertise in:
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 ### Planned Features
 - [ ] Real-time streaming with Azure Event Hubs
@@ -422,7 +420,7 @@ Through this project, I gained expertise in:
 
 ---
 
-## 🎯 Use Cases
+## Use Cases
 
 This architecture applies to:
 
@@ -440,7 +438,7 @@ This architecture applies to:
 
 ---
 
-## 📧 Contact
+## Contact
 
 **Mehul Mittal**  
 AI/ML Engineer | Data Engineer  
@@ -450,13 +448,13 @@ GitHub: github.com/mehulmittal
 
 ---
 
-## 📝 License
+## License
 
 MIT License - Copyright (c) 2026 Mehul Mittal
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Microsoft Azure for cloud infrastructure
 - Databricks for unified analytics platform
